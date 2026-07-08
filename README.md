@@ -11,6 +11,19 @@ The project also includes a Flutter desktop frontend, a FastAPI backend, local r
 
 ---
 
+## My Role
+
+I contributed to the data and database side of the XR-Bone project. My work focused on organizing bone-related data and supporting the data flow needed for displaying accurate information within the application.
+
+## My Contributions
+
+- Designed bone-related data structures.
+- Organized project data for content display.
+- Supported database storage and data retrieval.
+- Assisted in testing, documentation, and final project delivery.
+
+---
+
 ## Project Features
 
 - X-ray image upload from a Windows desktop application
@@ -281,3 +294,6 @@ git lfs track "*.onnx"
 ## Important Note
 
 This project is for academic and research purposes only. It is not a replacement for professional medical diagnosis by qualified healthcare specialists.
+
+Model weight files are not included in this repository due to size limitations.
+

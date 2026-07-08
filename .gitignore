@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env
+.env.*
+
+# Backend local files
+backend/__pycache__/
+backend/*.db
+backend/*.sqlite
+backend/*.sqlite3
+
+# Flutter / Dart generated files
+frontend/.dart_tool/
+frontend/build/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/.packages
+
+# Windows / IDE
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Training datasets and experiment outputs
+datasets/
+data/
+runs/
+yolo_data*/
+cls_data*/
+*.csv
+
+# Logs
+*.log
+
+# Flutter Windows generated files
+frontend/windows/flutter/ephemeral/
+*.pdb

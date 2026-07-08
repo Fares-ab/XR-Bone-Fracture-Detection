@@ -1,0 +1,118 @@
+XR-Bone Dataset Information
+
+Datasets are NOT included in this repository due to size and licensing restrictions.
+
+This project used multiple public X-ray datasets for classification and localization.
+
+============================================================
+1. Classification Datasets
+============================================================
+
+The final classification dataset was named:
+
+cls_data_v2
+
+It was created by combining multiple fracture / no-fracture datasets.
+
+Final current distribution after corrupted-image cleanup:
+
+Train:
+- Fracture: 7543
+- No fracture: 7851
+- Total: 15394
+
+Validation:
+- Fracture: 935
+- No fracture: 1191
+- Total: 2126
+
+Test:
+- Fracture: 721
+- No fracture: 835
+- Total: 1556
+
+Grand total:
+- Fracture: 9199
+- No fracture: 9877
+- Total: 19076
+
+Classification source datasets included:
+
+1) FracAtlas rebuilt binary split
+- Total: 4083
+- Fracture: 717
+- No fracture: 3366
+
+2) Old two-folder dataset
+- Total: 2127
+- Fracture: 2000
+- No fracture: 127
+
+3) Balanced binary dataset
+- Total: 10563
+- Fracture: 5181
+- No fracture: 5382
+
+4) Dataset 4 converted for classification
+- Total: 2362
+- Fracture: 1301
+- No fracture: 1061
+
+============================================================
+2. Localization Dataset
+============================================================
+
+The final localization dataset was named:
+
+yolo_data_fracture_only
+
+It was created by merging fracture-positive images from FracAtlas and Dataset 4.
+
+Final distribution:
+
+Train:
+- Fracture images: 1537
+- No fracture images: 0
+
+Validation:
+- Fracture images: 298
+- No fracture images: 0
+
+Test:
+- Fracture images: 183
+- No fracture images: 0
+
+Grand total:
+- Fracture images: 2018
+- No fracture images: 0
+
+Source breakdown:
+
+FracAtlas:
+- Train: 502 fracture
+- Validation: 108 fracture
+- Test: 107 fracture
+- Total: 717 fracture images
+
+Dataset 4:
+- Train: 1035 fracture
+- Validation: 190 fracture
+- Test: 76 fracture
+- Total: 1301 fracture images
+
+============================================================
+3. Dataset Links
+============================================================
+
+FracAtlas:
+https://github.com/FracAtlas/FracAtlas
+
+Other datasets were used locally for academic research and were not uploaded to this repository.
+
+============================================================
+4. Notes
+============================================================
+
+The repository contains code, model loading logic, backend API, Flutter frontend, and model weights.
+
+The raw datasets are not included. Users must download or prepare datasets separately if they want to retrain the models.

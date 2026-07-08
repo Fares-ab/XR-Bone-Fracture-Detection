@@ -1,0 +1,9 @@
+export 'welcome_page.dart';
+export 'login_page.dart';
+export 'register_page.dart';
+export 'dashboard_page.dart';
+export 'profile_page.dart';
+export 'apply_xray_page.dart';
+export 'history_page.dart';
+export 'report_detail_page.dart';
+export 'patient_search_page.dart';
